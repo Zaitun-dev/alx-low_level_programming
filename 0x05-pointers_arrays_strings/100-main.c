@@ -16,7 +16,7 @@ nb = atoi("-402");
 printf("%d\n", nb);
 nb = atoi("          ------++++++-----+++++--98");
 printf("%d\n", nb);
-nb = atoi("214748364");
+nb = atoi("2147483647");
 printf("%d\n", nb);
 nb = atoi("0");
 printf("%d\n", nb);
