@@ -20,7 +20,7 @@ printf(" ");
 }
 if (!(i % 10) && i)
 {
-printf("");
+printf(" ");
 }
 printf("0x%02x", buffer[i]);
 i++;
