@@ -9,7 +9,7 @@
 * @...: A variable number of strings to be printed.
 *
 * Description: If separator is NULL, it is not printed.
-* If one of the strings if NULL, (nil) is printed instead.
+* If one of the strings if NULL,  print (nil).
 */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
@@ -23,7 +23,7 @@ if (str == NULL)
 {
 printf("(nil)");
 }
-if (separator != NULL && i < n - 1)
+if (separator != NULL && i != (n - 1))
 {
 printf("%s", separator);
 }
